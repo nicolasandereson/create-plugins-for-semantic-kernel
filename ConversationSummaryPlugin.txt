@@ -2,9 +2,9 @@
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Plugins.Core;
 
-string yourDeploymentName = "plugins-deployment";
-string yourEndpoint = "https://myplugins.openai.azure.com/";
-string yourApiKey = "ff0cf165398c455fac77ae549609d09e";
+string yourDeploymentName = "";
+string yourEndpoint = "";
+string yourApiKey = "";
 
 var builder = Kernel.CreateBuilder();
 builder.AddAzureOpenAIChatCompletion(
